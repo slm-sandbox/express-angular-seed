@@ -1,4 +1,8 @@
-div subView is {{activeLocation}}
+h1 subView is {{activeLocation}}
+h2(ng-show="items.length>0") some data from db
+ul
+  li(ng-repeat="item in items")
+   {{item}}
 
 
 

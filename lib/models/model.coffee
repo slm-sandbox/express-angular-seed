@@ -2,6 +2,7 @@ mongoose = require "mongoose"
 modelSchema = mongoose.Schema
   time:
     type: Date, default: Date.now
+  data: {}
 ,
   strict: "throw"
 
