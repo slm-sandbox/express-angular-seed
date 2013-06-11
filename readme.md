@@ -17,7 +17,7 @@ Instructions below are for mac
 If you dont want to use mongo db
 * use config without db-params
     ```
-    cp config/sample.config.json config.json
+    cp config/sample.config.json config/config.json
     ```
 
 If you want mongo db
@@ -28,7 +28,7 @@ If you want mongo db
     ```
 * use config with db-params
     ```
-    cp config/sample.db.config.json config.json
+    cp config/sample.db.config.json config/config.json
     ```
 
 ## Get going
